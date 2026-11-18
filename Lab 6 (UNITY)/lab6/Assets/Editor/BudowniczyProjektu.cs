@@ -538,8 +538,6 @@ public static class BudowniczyProjektu
 
         var c = Plotno(cam);
         var m = Menedzer();
-        Napis(c.transform, "Tekst", "Tu będzie umieszczona nasza instrukcja do gry:)", 30, Color.white,
-              new Vector2(-400, 450), new Vector2(1000, 60));
         Przycisk(c.transform, "POWRÓT DO MENU", new Vector2(720, -430), Neon, m.IdzMenu);
         SystemZdarzen();
         EditorSceneManager.SaveScene(s, Sceny[2]);
