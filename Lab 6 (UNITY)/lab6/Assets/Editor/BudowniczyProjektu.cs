@@ -43,8 +43,8 @@ public static class BudowniczyProjektu
         ScenaKoniec();
 
         EditorBuildSettings.scenes = System.Array.ConvertAll(Sceny, s => new EditorBuildSettingsScene(s, true));
-        PlayerSettings.productName = "Kosmiczny Biegacz";
-        PlayerSettings.companyName = "Kreatywny Student";
+        PlayerSettings.productName = "Space Runner";
+        PlayerSettings.companyName = "WIMIiP";
         PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
         PlayerSettings.defaultScreenWidth = 1600;
         PlayerSettings.defaultScreenHeight = 900;
@@ -387,9 +387,9 @@ public static class BudowniczyProjektu
         var c = Plotno(cam);
         var m = Menedzer();
 
-        Napis(c.transform, "Tytuł", "KOSMICZNY\nBIEGACZ", 88, Color.white, new Vector2(-640, 300), new Vector2(560, 260),
+        Napis(c.transform, "Tytuł", "Space\nRunner", 88, Color.white, new Vector2(-640, 300), new Vector2(560, 260),
               TextAnchor.UpperLeft, true).lineSpacing = 0.85f;
-        Napis(c.transform, "Podtytuł", "MATEUSZ NOWACZEK", 38, Color.white, new Vector2(-640, 120), new Vector2(560, 60), gruby: true);
+        Napis(c.transform, "Podtytuł", "WIMIiP", 38, Color.white, new Vector2(-640, 120), new Vector2(560, 60), gruby: true);
         Napis(c.transform, "Wersja", "wersja 1.0", 28, Color.white, new Vector2(-640, 72), new Vector2(560, 44));
 
         // Lewa kolumna pod napisem - przyciski w równych odstępach
