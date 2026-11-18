@@ -2387,7 +2387,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: MATEUSZ NOWACZEK
+  m_Text: WIMIiP
 --- !u!222 &1635830611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2605,9 +2605,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.85
-  m_Text: 'KOSMICZNY
+  m_Text: 'Space
 
-    BIEGACZ'
+    Runner'
 --- !u!222 &1990900024
 CanvasRenderer:
   m_ObjectHideFlags: 0
